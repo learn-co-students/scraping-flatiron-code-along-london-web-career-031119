@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Learn.co Educational Content License	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/LICENSE.md	/^#Learn.co Educational Content License$/;"	function	line:1
+Object Oriented Scraping	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^# Object Oriented Scraping$/;"	function	line:1
+Objectives	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^## Objectives$/;"	function	line:3
+Overview	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^## Overview$/;"	function	line:9
+Code Along I: The `Course` Class	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^## Code Along I: The `Course` Class$/;"	function	line:15
+Code Along II: The `Scraper` Class	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^## Code Along II: The `Scraper` Class$/;"	function	line:76
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^##### `#get_page`$/;"	function	line:80
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^##### `#get_courses`$/;"	function	line:84
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^##### `#make_courses`$/;"	function	line:88
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^##### `#print_courses`$/;"	function	line:92
+Getting the HTML Doc and Finding Our Selectors	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^### Getting the HTML Doc and Finding Our Selectors$/;"	function	line:98
+Finding CSS Selectors for The Desired Attributes	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^### Finding CSS Selectors for The Desired Attributes$/;"	function	line:184
+Scraping Course Title	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### Scraping Course Title$/;"	function	line:195
+Scraping Course Schedule	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### Scraping Course Schedule$/;"	function	line:227
+Scraping Course Description	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### Scraping Course Description$/;"	function	line:247
+Creating `Course` Objects with Scraped Attributes	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^### Creating `Course` Objects with Scraped Attributes$/;"	function	line:278
+Extracting Our Code into Methods	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^### Extracting Our Code into Methods$/;"	function	line:324
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### `#get_page`$/;"	function	line:328
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### `#get_courses`$/;"	function	line:358
+`	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^#### `#make_courses`$/;"	function	line:370
+Final Code: The `Scraper` Class	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/README.md	/^### Final Code: The `Scraper` Class$/;"	function	line:395
+Contributing to Learn.co Curriculum	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/CONTRIBUTING.md	/^# Contributing to Learn.co Curriculum$/;"	function	line:1
+Raising an Issue to Encourage a Contribution	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/CONTRIBUTING.md	/^## Raising an Issue to Encourage a Contribution$/;"	function	line:5
+Submitting a Pull Request to Suggest an Improvement	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/CONTRIBUTING.md	/^## Submitting a Pull Request to Suggest an Improvement$/;"	function	line:13
+Why Contribute?	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/CONTRIBUTING.md	/^# Why Contribute?$/;"	function	line:25
+Scraper	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/lib/scraper.rb	/^class Scraper$/;"	class	line:6
+print_courses	/Users/manon/Development/code/scraping-flatiron-code-along-london-web-career-031119/lib/scraper.rb	/^    def print_courses$/;"	method	line:8	class:Scraper

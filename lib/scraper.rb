@@ -1,10 +1,35 @@
+require 'pry'
 require 'nokogiri'
 require 'open-uri'
 
 require_relative './course.rb'
 
+
+#  responsible for using Nokogiri to scrape the relevant data. It will also be
+# responsible for taking that data and using it to instantiate instances of the Course class.
 class Scraper
-  
+
+    def get_page
+      # use Nokogiri and open-uri to get our HTML
+      doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+
+    end
+
+    def get_courses
+      self.get_page.css(".post")
+    end
+
+    def make_courses
+      self.get_courses.each do |post|
+        course = Course.new
+        course.title = post.css("h2").text
+        course.schedule = post.css(".date").text
+        course.description = post.css("p").text
+      end
+    end
+
+
+
     def print_courses
     self.make_courses
     Course.all.each do |course|
@@ -15,8 +40,7 @@ class Scraper
       end
     end
   end
-  
+
 end
 
-
-
+Scraper.new.print_courses
